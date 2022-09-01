@@ -26,4 +26,5 @@ document.getElementById("bt").addEventListener('click', (e)=>{
     let totalPrice2=eggtotal * sp2;
     document.getElementById("eggtotalPrice").innerHTML=`Congratulations you have earned 
     ${totalPrice2}kes. Check your gmail for more information`});
+    
 
