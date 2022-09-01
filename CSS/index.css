@@ -82,13 +82,13 @@
   .chicken>h1{
     text-align: center;
   }
-  .total{
+  .footer{
     box-sizing: border-box;
-    height: 35%;
+    height: 5%;
     width: 100%;
     background-color: black;
-    color: white;
+    color: lightgreen;
   }
-  .total>h1{
+  .footer>p{
     text-align: center;
   }
