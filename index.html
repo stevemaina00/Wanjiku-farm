@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,7 +27,6 @@
             <h2>dairy and chicken products.</h2><br>
             <p>  At Wanjiku's Farm, we're proud to share the simple<br><br> pleasures of real dairy straight from our<br><br> farms.
                 Our products are organic and<br><br>eco friendly.</p>
-
         </section>
     </section>
         <section>
@@ -36,14 +36,11 @@
             <p>Who we are</p>
         </div>
             <div id="info">
-                <img src="https://www.independent.co.ug/wp-content/uploads/2019/11/Dairy-cattle-Uganda-snv.jpg">
-            
                 <P style="color: green;font-weight:bolder;font-size: large;"><i>"We help our clients navigate dairy industry and market<br><br> complexities to make better informed decisions and deliver<br><br>
-                 great tasting, nutritious dairy and chicken products to people<br><br> around the world."</i></p>  
+                    great tasting, nutritious dairy and chicken products to<br><br>people around the world."</i></p>  
 
+                <img src="https://www.independent.co.ug/wp-content/uploads/2019/11/Dairy-cattle-Uganda-snv.jpg">
             </div>
-
-
         </section>
         <section class="dairy calculations">
             <h1>Dairy calculator</h1>
@@ -51,11 +48,24 @@
             <input id="shedA" type="number" placeholder="shed A">
             <label for="shedB">Shed B</label>
             <input id="shedB" type="number" placeholder="shed B">
-
+            <button id="bt" class="w3-button w3-green">Generate Report</button>
+            <p style="color: lightgreen;" id="day"></p>
+            <p style="color: lightgreen;" id="totalPrice"></p>
+        </section>
+        <section class="chicken calculations">
+            <h1>Eggs Calculator</h1>
+            <label for="nestA">Shed A</label>
+            <input id="nestA" type="number" placeholder="nest A">
+            <label for="nestB">Shed B</label>
+            <input id="nestB" type="number" placeholder="nest B">
+            <button id="bt2" class="w3-button w3-green">Generate Report</button>
+            <p style="color: black;" id="eggday"></p>
+            <p style="color: black;" id="eggtotalPrice"></p>
+        </section>
+        <section class="total calculations">
+            <h1>Total Income for today</h1>
 
         </section>
         <script src="./JS/index.js" async defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
-    
 </body>
 </html>

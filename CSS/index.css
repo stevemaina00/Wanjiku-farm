@@ -51,8 +51,41 @@
     display: flex;
    }
   #info>img{
-    margin-right: 100px;
+    float: right;
+    margin-left: 100px;
   }
   #info>p{
     padding-top: 100px;
+    margin-left: 35px;
+  }
+  .dairy{
+    box-sizing: border-box;
+    height: 35%;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .dairy>h1{
+    text-align: center;
+  }
+  .dairy>input{
+    margin-top: 20px;
+  }
+  .w3-button {width:150px;}
+  .chicken{
+    box-sizing: border-box;
+    height: 35%;
+    width: 100%;
+    background-color: #fafafa;
+    color: black;
+  }
+  .chicken>h1{
+    text-align: center;
+  }
+  .total{
+    box-sizing: border-box;
+    height: 35%;
+    width: 100%;
+    background-color: black;
+    color: white;
   }
