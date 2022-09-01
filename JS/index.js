@@ -26,5 +26,13 @@ document.getElementById("bt").addEventListener('click', (e)=>{
     let totalPrice2=eggtotal * sp2;
     document.getElementById("eggtotalPrice").innerHTML=`Congratulations you have earned 
     ${totalPrice2}kes. Check your gmail for more information`});
-    
+    const btn3 = document.getElementById('bt3')
+    btn3.addEventListener('click', ()=>{
+        let SA=document.getElementById('shedA').value 
+        let SB=document.getElementById('shedB').value 
+        let NA=document.getElementById('nestA').value 
+        let NB=document.getElementById('nestB').value 
+        let totalEarnings=SA + SB + NA + NB;
+        
+    })
 
