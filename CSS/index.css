@@ -13,7 +13,7 @@
     background-position: center;
     position: relative;
     background-size: cover;
-    color: pink;
+    color: greenyellow;
     position: relative;
     font-weight: bolder;
     
@@ -34,4 +34,12 @@
     position: sticky;
     top: 0;
   }
-    
+   .hero{
+    padding: 200px;
+    font-size: x-large;
+    padding-left: 500px;
+   }
+   .hero>p{
+    font-size: large;
+   }
+   
