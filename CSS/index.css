@@ -42,4 +42,8 @@
    .hero>p{
     font-size: large;
    }
-   
+   .About{
+    margin-left: 600px;
+    padding-top: 50px;
+    color: rgb(39, 100, 39);
+   }
