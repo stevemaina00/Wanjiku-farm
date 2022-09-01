@@ -16,7 +16,7 @@ document.getElementById("bt").addEventListener('click', (e)=>{
     let sp = 50;
     let totalPrice=total * sp;
     document.getElementById("totalPrice").innerHTML=`Congratulations you have earned 
-    ${totalPrice}kes.Check your gmail for more information`})
+    ${totalPrice}kes. Check your gmail for more information`})
     document.getElementById("bt2").addEventListener('click', (e)=>{
     let x=document.getElementById("nestA").value
     let y=document.getElementById("nestB").value
@@ -25,5 +25,5 @@ document.getElementById("bt").addEventListener('click', (e)=>{
     let sp2 = 400;
     let totalPrice2=eggtotal * sp2;
     document.getElementById("eggtotalPrice").innerHTML=`Congratulations you have earned 
-    ${totalPrice2}kes.Check your gmail for more information`});
+    ${totalPrice2}kes. Check your gmail for more information`});
 

@@ -88,6 +88,7 @@
     width: 100%;
     background-color: lightgreen;
     color: black;
+    display:flex ;
   }
   .footer>p{
     text-align: center;
@@ -95,5 +96,9 @@
   }
   .icons{
     display: flex;
+    
+  }
+  .icons2{
     justify-content: space-between;
+    margin-left: 72%;
   }
