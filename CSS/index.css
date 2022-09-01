@@ -86,9 +86,14 @@
     box-sizing: border-box;
     height: 5%;
     width: 100%;
-    background-color: black;
-    color: lightgreen;
+    background-color: lightgreen;
+    color: black;
   }
   .footer>p{
     text-align: center;
+    font-weight: bolder;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-between;
   }
