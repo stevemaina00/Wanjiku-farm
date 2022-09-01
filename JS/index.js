@@ -33,6 +33,7 @@ document.getElementById("bt").addEventListener('click', (e)=>{
         let NA=document.getElementById('nestA').value 
         let NB=document.getElementById('nestB').value 
         let totalEarnings=SA + SB + NA + NB;
+        document.getElementById('tots').innerHTML=`Your total earnings for today is ${totalEarnings}`
         
     })
 
