@@ -3,3 +3,7 @@ document.querySelector('#logo').addEventListener('mouseover', (e)=>{
     logo.style.color="green"
     
 })
+document.querySelector('#logo').addEventListener('mouseover', (e)=>{
+    alert('Welcome to our website!')
+}, 2000)
+
