@@ -30,10 +30,15 @@ document.getElementById("bt").addEventListener('click', (e)=>{
     btn3.addEventListener('click', ()=>{
         let SA=document.getElementById('shedA').value 
         let SB=document.getElementById('shedB').value 
+        let S=SA + SB;
+        let ps=S*50;
         let NA=document.getElementById('nestA').value 
         let NB=document.getElementById('nestB').value 
-        let totalEarnings=SA + SB + NA + NB;
-        document.getElementById('tots').innerHTML=`Your total earnings for today is ${totalEarnings}`
+        let N=NA + NB;
+        let ns=N * 400
+        let totalEarnings=ps + ns;
+        const d = new Date();
+        document.getElementById('tots').innerHTML=`Your total earnings as of ${d} is kes ${totalEarnings}`
         
     })
 
