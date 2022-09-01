@@ -89,3 +89,6 @@
     background-color: black;
     color: white;
   }
+  .total>h1{
+    text-align: center;
+  }
