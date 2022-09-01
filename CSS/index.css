@@ -47,3 +47,12 @@
     padding-top: 50px;
     color: rgb(39, 100, 39);
    }
+   #info{
+    display: flex;
+   }
+  #info>img{
+    margin-right: 100px;
+  }
+  #info>p{
+    padding-top: 100px;
+  }
