@@ -10,11 +10,15 @@
     background-color: lightblue;
   }
 }
+#pic{
+  margin-left: 10px;
+  position: relative;
+}
 .head{
     background-image: url('https://www.thesun.co.uk/wp-content/uploads/2018/06/NINTCHDBPICT000416535642.jpg?strip=all&w=960');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 95vh;
+    height: 105vh;
     background-position: center;
     position: relative;
     background-size: cover;
@@ -121,4 +125,13 @@
 #db{
   color: white;
   background-color: green;
+}
+.back{
+  box-sizing: border-box;
+  height: 15%;
+  background-color: green;
+  color: white;
+}
+#logo{
+  margin-left: 20px;
 }

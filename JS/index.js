@@ -15,7 +15,7 @@ function displayOutput() {
 }
 document.querySelector('#logo').addEventListener('mouseover', (e)=>{
     let logo=document.getElementById('logo');
-    logo.style.color="green"
+    logo.style.color="black"
     
 })
 document.querySelector('#db').addEventListener('mouseover', (e)=>{
@@ -61,17 +61,17 @@ document.getElementById("bt").addEventListener('click', (e)=>{
 
 function changeColor(){
     let changeCol=document.getElementById('a')
-    changeCol.style.color="green"
+    changeCol.style.color="white"
 }
 function changeColor1(){
     let changeCol=document.getElementById('a1')
-    changeCol.style.color="green"
+    changeCol.style.color="white"
 }
 function changeColor2(){
     let changeCol=document.getElementById('a2')
-    changeCol.style.color="green"
+    changeCol.style.color="white"
 }
 function changeColor3(){
     let changeCol=document.getElementById('a3')
-    changeCol.style.color="green"
+    changeCol.style.color="white"
 }
