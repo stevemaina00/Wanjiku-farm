@@ -1,12 +1,16 @@
 
 
-fetch("https://api.openbrewerydb.org/breweries")
-	.then(response => response.json())
-	.then(response => console.log(response)
-    )
-    let country=response[16].name
-    document.getElementById("ap").innerHTML=country
-	.catch(err => console.error(err));
+function displayOutput() {
+    axios.get("https://api.openbrewerydb.org/breweries").then(function (response) {
+        console.log(response.data)
+    // let name = response.data[10].city + " " + response.data[10].country + " " + response.data[9].address
+    // document.getElementById("ap").innerHTML=name;
+    let country=response.data[16].name;
+    document.getElementById('ap').innerHTML=country;
+    let city=response.data[16].city;
+    document.getElementById('p').innerHTML=city
+})
+}
 document.querySelector('#logo').addEventListener('mouseover', (e)=>{
     let logo=document.getElementById('logo');
     logo.style.color="green"

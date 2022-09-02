@@ -67,8 +67,9 @@
             <h1>Total Earnings</h1>
             <button id="bt3" class="w3-button w3-green">Generate Report</button>
             <p style="color: lightgreen;" id="tots"></p><br>
-            <button id="bt5" class="w3-button w3-green">Generate API Report</button>
+            <button onclick="displayOutput()" id="bt5" class="w3-button w3-green">Generate API Report</button>
             <p style="color: lightgreen;" id="ap"></p>
+            <p style="color: yellow;" id="p"></p>
         </section>
         <section id="footer" class="footer">
             <div class="icons">
@@ -82,5 +83,6 @@
             </div>
         </section>
         <script src="./JS/index.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
 </body>
 </html>
