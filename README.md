@@ -2,7 +2,7 @@ Wanjiku-farm-Ltd-Project
 
 Authored by: Steve Maina
 
-A website that informs the owner of the farm about daily records in the farm and keeps tracl on the progress of the farm
+A website that informs the owner of the farm about daily records in the farm and keeps track on the progress of the farm income.
 
 Description Installation Requirement Technology Used Reference Licence 
 Authors Info Description Installation
