@@ -20,7 +20,7 @@ document.querySelector('#logo').addEventListener('mouseover', (e)=>{
 })
 document.querySelector('#db').addEventListener('click', (e)=>{
     e.preventDefault()
-    alert('Welcome to our website!')
+    alert('Call us on 072200000-"John Doe"')
 }, 2000)
 document.getElementById("bt").addEventListener('click', (e)=>{
     e.preventDefault();
