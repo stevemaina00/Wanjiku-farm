@@ -4,6 +4,8 @@ Authored by: Steve Maina
 
 A website that informs the owner of the farm about daily records in the farm and keeps track on the progress of the farm income.
 
+A user is able to input data of the products. The data is sent ot the owner.
+
 Description Installation Requirement Technology Used Reference Licence 
 Authors Info Description Installation
 
