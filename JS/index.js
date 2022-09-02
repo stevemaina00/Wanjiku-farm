@@ -3,12 +3,14 @@
 function displayOutput() {
     axios.get("https://api.openbrewerydb.org/breweries").then(function (response) {
         console.log(response.data)
-    // let name = response.data[10].city + " " + response.data[10].country + " " + response.data[9].address
-    // document.getElementById("ap").innerHTML=name;
     let country=response.data[16].name;
     document.getElementById('ap').innerHTML=country;
     let city=response.data[16].city;
     document.getElementById('p').innerHTML=city
+    let country_province=response.data[16].country_province;
+    let phone=response.data[16].phone;
+    document.getElementById('pp').innerHTML=`The customer comes from ${country} and ${country_province} province
+    for more details call ${phone}`
 })
 }
 document.querySelector('#logo').addEventListener('mouseover', (e)=>{
