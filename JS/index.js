@@ -7,9 +7,9 @@ function displayOutput() {
     document.getElementById('ap').innerHTML=country;
     let city=response.data[16].city;
     document.getElementById('p').innerHTML=city
-    let country_province=response.data[16].country_province;
+    let county_province=response.data[16].county_province;
     let phone=response.data[16].phone;
-    document.getElementById('pp').innerHTML=`The customer comes from ${country} and ${country_province} province
+    document.getElementById('pp').innerHTML=`The customer comes from ${country} and ${county_province} province
     for more details call ${phone}`
 })
 }

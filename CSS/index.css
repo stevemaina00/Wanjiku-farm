@@ -5,6 +5,11 @@
     font-family: 'Space Grotesk', sans-serif;
   
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 .head{
     background-image: url('https://www.thesun.co.uk/wp-content/uploads/2018/06/NINTCHDBPICT000416535642.jpg?strip=all&w=960');
     background-repeat: no-repeat;
