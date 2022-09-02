@@ -2,6 +2,8 @@ Wanjiku-farm-Ltd-Project
 
 Authored by: Steve Maina
 
+A user is able to input data of the products. The data is sent to the owner.
+
 A website that informs the owner of the farm about daily records in the farm and keeps track on the progress of the farm income.
 
 Description Installation Requirement Technology Used Reference Licence 
