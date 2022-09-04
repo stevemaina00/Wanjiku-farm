@@ -6,6 +6,8 @@ A user is able to input data of the products. The data is sent ot the owner.
 
 A website that informs the owner of the farm about daily records in the farm and keeps track on the progress of the farm income.
 
+Link to the site - https://stevemaina00.github.io/Wanjiku-farm/
+
 Description Installation Requirement Technology Used Reference Licence 
 Authors Info Description Installation
 
