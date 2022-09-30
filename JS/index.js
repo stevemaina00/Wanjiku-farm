@@ -52,7 +52,7 @@ document.getElementById("bt").addEventListener('click', (e)=>{
         let N=NA + NB;
         let ns=N * 400
         let totalEarnings=ps + ns;
-        const d = new Date();
+        const d = new Date().toLocaleDate();
         document.getElementById('tots').innerHTML=`Your total earnings as of ${d} is kes ${totalEarnings}`
         
     })
